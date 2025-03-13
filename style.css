@@ -1,0 +1,172 @@
+.container {
+    width: 1276px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    border-bottom: 1.5px solid #404040;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-logo {
+    object-fit: contain;
+    width: 83px;
+}
+
+nav {
+    gap: 32px;
+    display: flex;
+}
+
+.list-nav {
+    gap: 32px;
+    display: flex;
+}
+
+.titles-ul {
+    color: white;
+    list-style: none;
+    cursor: pointer;
+}
+
+.button-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0;
+    width: 106px;
+}
+
+.section-one {
+    display: flex;
+    margin-top: 152px;
+}
+
+.DBS-title {
+    font-style: normal;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: 16px;
+}
+
+.section-one-title {
+    font-style: italic;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+}
+
+.section-one-paragraph {
+    color: white;
+    margin: 0;
+    width: 300px;
+    margin-bottom: 48px;
+    margin-top: 24px;
+}
+
+.button-learn-more {
+    text-decoration: none;
+    color: white;
+    padding: 16px 43.5px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.section-two {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.content-section-two {
+    width: 636px;
+}
+
+.section-two-paragraph {
+    width: 400px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.section-three {
+    display: flex;
+    background: linear-gradient(to right, #91282F, #330002);
+    border-radius: 12px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 125px;
+}
+
+.content-section-three {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 207px;
+}
+
+.section-three-title {
+    color: white;
+    margin: 0;
+    width: 325px;
+}
+
+.section-three-paragraph {
+    color: white;
+    width: 370px;
+    margin: 0;
+}
+
+.button-buy {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 13px 65px;
+    background-color: black;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 217.43px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-logo-footer {
+    object-fit: contain;
+    width: 197px;
+}
+
+.footer-paragraph {
+    text-align: center;
+}
+
+.content-copyright {
+    display: flex;
+    gap: 25px;
+}
+
+.container-rights {
+    display: flex;
+    justify-content: space-between;
+}
